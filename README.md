@@ -1,38 +1,54 @@
-# pantry-tracker
+# Pantry Tracker App
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project is a Pantry Tracker application developed using Next.js and JavaScript. It is designed to help users keep track of their pantry inventory and find recipes based on available ingredients. The app is deployed on Vercel.
 
-## Getting Started
+## Table of Contents
+- [Features](#features)
+- [Future Enhancements](#future-enhancements)
+- [What I learned](#what-i-learned)
+- [Installation](#installation)
+- [Usage](#usage)
 
-First, run the development server:
+## Features
+- **Low Stock Alert**: Items with less than five in stock are highlighted.
+- **Inventory Management**: Add, remove, and sort items in your pantry.
+- **Search Functionality**: Quickly search for items in your inventory.
+- **Recipe Finder**: Generate recipes based on available ingredients using Meta's AI model through OpenRouterAI.
+- **About Page**: A simple page providing an overview of the application.
+
+## Future Enhancements
+- **Improved Recipe Formatting**: Enhance the display and formatting of the recipe results.
+- **Expanded API Requests**: Increase the number of API requests for more robust recipe suggestions.
+- **Error Handling**: Implement better error handling for API requests and user interactions.
+- **User Authentication**: Add user authentication to save personal inventories and preferences.
+- **Mobile Responsiveness**: Improve mobile responsiveness for a better user experience on different devices.
+
+## What I learned
+- **API Integration**: Integrating external APIs and handling limited requests.
+- **Material-UI**: Utilizing Material-UI components for improved UI/UX.
+- **State Management**: Managing state effectively across different components.
+- **Deployment**: Deploying a Next.js application on Vercel.
+
+## Installation
+To clone and run this project, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone this repository
+$ git clone https://github.com/your-username/pantry-tracker.git
+
+# Go into the repository
+$ cd pantry-tracker
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+- Low Stock Items: View items with less than five in stock on the home page.
+- Inventory Management: Navigate to the Inventory tab to add, remove, and sort pantry items.
+- Search Items: Use the search bar to find specific items in your inventory.
+- Find Recipes: Generate recipes based on your pantry inventory by navigating to the Recipes tab.
+- About Page: Learn more about the app on the About page.
