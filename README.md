@@ -24,6 +24,7 @@ This project is a Pantry Tracker application developed using Next.js and JavaScr
 - **Mobile Responsiveness**: Improve mobile responsiveness for a better user experience on different devices.
 
 ## What I learned
+- **FireBase Integration**: Integrating a Firebase database holding the inventory. 
 - **API Integration**: Integrating external APIs and handling limited requests.
 - **Material-UI**: Utilizing Material-UI components for improved UI/UX.
 - **State Management**: Managing state effectively across different components.
