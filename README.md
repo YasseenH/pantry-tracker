@@ -2,6 +2,10 @@
 
 This project is a Pantry Tracker application developed using Next.js and JavaScript. It is designed to help users keep track of their pantry inventory and find recipes based on available ingredients. The app is deployed on Vercel.
 
+
+https://github.com/user-attachments/assets/4ed8e216-601a-4666-bb71-84f52dc915aa
+
+
 ## Table of Contents
 - [Features](#features)
 - [Future Enhancements](#future-enhancements)
